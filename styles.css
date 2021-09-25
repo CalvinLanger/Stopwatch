@@ -1,0 +1,55 @@
+:root{
+    --orange: #ffa600;
+    --white: #fff;
+}
+
+body{
+    background-color: var(--orange);
+    font-family: "helveticaNeue-Light", "helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande" , sans-serif;
+    height: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 15% auto;
+    color: var(--white);
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, #tens{
+    font-size: 2em;
+}
+
+button{
+    background: var(--orange);
+    color: var(--white);
+    border: solid 1px var(--white);
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+}
+
+button:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: var(--white);
+    border: solid 1px var(--white);
+    color: var(--orange);
+}
+
+@media only screen and (max-width: 800px) {
+   .wrapper{
+       width: 100%;
+       margin-top: 50%;
+   }
+}

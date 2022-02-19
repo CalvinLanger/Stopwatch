@@ -27,7 +27,7 @@ h2 {
 
 #seconds,
 #tens {
-  font-size: 2em;
+  font-size: 3rem;
 }
 
 .buttons {
@@ -63,5 +63,10 @@ button:hover {
 
   .buttons {
     flex-direction: column;
+  }
+
+  #seconds,
+  #tens {
+    font-size: 4rem;
   }
 }
